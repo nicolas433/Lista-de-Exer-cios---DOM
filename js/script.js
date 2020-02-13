@@ -15,4 +15,7 @@ let list_father = document.querySelector("ul li:nth-child(5)").parentNode;
 list_father.style.border = "1px solid black";
 
 //D
-console.log(list_father.Siblings);
+let divs = list_father.parentNode.querySelectorAll("div");
+for(let i = 0; i < divs.length ; i++){
+    divs[i].style.color = "red";
+}

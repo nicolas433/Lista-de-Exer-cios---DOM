@@ -1,28 +1,31 @@
 PWEB 2 – Lista de Exercícios Práticos – DOM
 
 1. Use a código HTML a seguir para realizar as atividades deste item.
-a. Selecione o primeiro elemento da lista e defina a cor do texto como azul.
-b. Selecione o terceiro elemento da lista. Defina todos os elementos a
+ - a. Selecione o primeiro elemento da lista e defina a cor do texto como azul.
+ - b. Selecione o terceiro elemento da lista. Defina todos os elementos a
 esquerda como negrito.
-c. Selecione o elemento pai do elemento 5 da lista e inseria um borda no
+ - c. Selecione o elemento pai do elemento 5 da lista e inseria um borda no
 elemento.
-d. Com o elemento pai da lista selecionado, modifique todas as DIVs que o
+ - d. Com o elemento pai da lista selecionado, modifique todas as DIVs que o
 antecedem para que a cor do texto seja vermelha.
 
-&lt;html&gt;
-&lt;body&gt;
-&lt;div&gt;Lista de Alunos&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;João&lt;/li&gt;
-&lt;li&gt;Maria&lt;/li&gt;
-&lt;li&gt;Sara&lt;/li&gt;
-&lt;li&gt;Edson&lt;/li&gt;
-&lt;li&gt;Mariana&lt;/li&gt;
-&lt;li&gt;Jose&lt;/li&gt;
-&lt;li&gt;Ana&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+* html>
+    * head>
+    * /head>
+    * body>
+        * div >Lista de Alunos</div>
+            * ul>
+                * li>João</li>
+                * li>Maria</li>
+                * li>Sara</li>
+                * li>Edson</li>
+                * li>Mariana</li>
+                * li>José</li>
+                * li>Ana</li>
+            * /ul>
+    * /body>
+* /html>
+
 2. Construa uma matriz quadrática do tipo NxN usando HTML.
 3. Crie um código Javascript que selecione a diagonal principal da matriz criada no
 item 1, e defina a cor das células que compõem a diagonal principal de laranja.

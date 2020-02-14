@@ -35,8 +35,8 @@ azul.
 5. Considere que el é uma variável que armazena a instância de um elemento
 qualquer do DOM. Sobre localizar elementos no mesmo nível, responda os
 seguintes questionamentos:
-a. É verdade que elem.lastChild.nextSibling sempre será null?
-b. É verdade que elem.children[0].previousSibling será sempre null ?
+* a. É verdade que elem.lastChild.nextSibling sempre será null?
+* b. É verdade que elem.children[0].previousSibling será sempre null ?
 6. Considere el um elemento que contém vários outros elementos filhos que
 possuem ID únicos e definidos em cada elemento filho, incluindo a DIV com o
 ID “teste”. Qual o resultado armazenado na seguinte variável: const el2 =
